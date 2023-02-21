@@ -58,7 +58,7 @@ a.brand-logo .name {
     line-height: 1em;
     letter-spacing: -0.05em;
     margin-top: 1.3em;
-    font-size: 8em;
+    font-size: 5em;
     font-weight: 700;
 }
 .bg-highlight{
@@ -107,7 +107,7 @@ a.brand-logo .name {
 .rule-lg{
     border: none;
     border-bottom: 4px solid black;
-    margin-top: 8rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 .p_r_md{
@@ -307,3 +307,31 @@ img {
     margin-top: -54px;
     font-size: 34px;
 }
+.footer-font{
+    font-size: 1rem;
+    line-height: 1.8;
+}
+.ftr-info{
+    display: inline;
+}
+@media screen and (max-width: 576px){
+    .display-highlight{
+        margin-top: 2.6em;
+        font-size: 3rem;
+    }
+    /* .container-fluid{
+        margin-left: 5rem;
+    } */
+    .public-navbar-main{
+        font-size: 1rem;
+        position:inherit;
+    }
+    .sticky h2{
+        transform: none;
+    }
+  }
+  @media  screen and (max-width: 1024px) {
+    .sticky h2{
+        transform: none;
+    }
+  }
